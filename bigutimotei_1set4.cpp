@@ -1,21 +1,15 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
-int a;
-int b;
+int n,d,s=1;
 int main()
 {
-    cout<<"a="; cin>>a;
-    cout<<"b="; cin>>b;
-    if (a==b) {cout<<a;}
-        else
-        {
-            while (a!=b)
-            {
-                if (a>b) {a=a-b;}
-                    else {b=b-a;}
-            }
-            cout<<a;
-        }
-    return 0;
+    cout<<"n= ";cin>>n;
+    for(d=2;d<=n/2;d++)
+        if(n%d==0)
+            s=s+d;
+    if(n==s)
+        cout<<"numarul este perfect";
+    else
+        cout<<"numarul nu este perfect";
+return 0;
 }
