@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 using namespace std;
 int n,d,s=1;
@@ -8,8 +9,9 @@ int main()
         if(n%d==0)
             s=s+d;
     if(n==s)
-        cout<<"numarul este perfect";
+        Cout<<"numarul este perfect";
     else
-        cout<<"numarul nu este perfect";
+        Cout<<"numarul nu este perfect";
 return 0;
 }
+*/
